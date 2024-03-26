@@ -1,6 +1,18 @@
+BACKEND:
 pip install Flask
 pip install werkzeug
 pip install Flask-Cors
 pip install flask-marshmallow
 pip install SQLAlchemy
 pip install Flask-SQLAlchemy
+pip install axios
+pip install matplotlib
+pip install tensorflow
+pip install tensorflow_hub
+pip install opencv-python
+
+
+FRONTEND:
+npm install axios
+npm install react-bootstrap bootstrap
+npm install react-responsive-masonry --save
