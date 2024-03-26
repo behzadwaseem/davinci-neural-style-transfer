@@ -57,7 +57,6 @@ def upload_two_images():
 
     if style_img and allowed_file(style_img.filename):
         filename2 = secure_filename(style_img.filename)
-        # style_img.save(os.path.join(app.config['UPLOAD_FOLDER'], filename2))
         style_img.save(os.path.join(UPLOAD_IMG_PATH, filename2))
     else:
         return jsonify({'message': 'Image1 did not upload.'})
