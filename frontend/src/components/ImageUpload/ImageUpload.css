@@ -1,0 +1,96 @@
+.uploadSection {
+    position: relative;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.uploadContainer {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.uploadHeading {
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+}
+
+.uploadCard {
+    background: #262626; 
+    border: 2px dashed #625E5E;
+    box-shadow: 0 0 10px var(--color-primary),
+                0 0 20px var(--color-primary);
+    border-radius: 22px;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 60px 50px;
+    padding-bottom: 0px;
+}
+
+.uploadForm {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+input[type="file"] {
+    display: none;
+  }
+  
+  .uploadContentFile {
+    display: inline-block;
+    padding: 20px 24px;
+    margin: 15px 12px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    background: linear-gradient(to right, #E8D94E, #C85A1C);
+  }
+
+  .uploadStyleFile {
+    display: inline-block;
+    padding: 20px 24px;
+    margin: 15px 12px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    background: linear-gradient(to right, #88E84E, #2F2CBE);
+  }
+
+
+.uploadTitleInput {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px;
+    margin: 10px 12px;
+    width: auto;
+    font-size: 1.5vw;
+    color: #A09F9F;
+    background-color: #F4F3E7;
+}
+
+.uploadNstBtn {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #E84E4E, #54504D);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+  
+.uploadNstInfo {
+    color: white;
+}

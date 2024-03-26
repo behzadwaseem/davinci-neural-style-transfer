@@ -1,0 +1,70 @@
+.gallerySection {
+    position: relative;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.galleryContainer {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-position-x: center;
+}
+
+.galleryDescription {
+  align-items: center;
+  text-align: center
+}
+
+.galleryDescription p {
+  color: lightgray
+}
+
+.galleryTitle {
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    margin-top: 40px;
+}
+
+
+
+.galleryItem {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px;
+    padding-top:4vw;
+    transition: transform .2s;
+}
+
+.galleryItem:hover {
+  transform: scale(1.15);
+}
+
+.galleryImage {
+    display: block;
+    width: 30vw;
+    object-fit: cover;
+    cursor: pointer;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 5px 42px black;
+}
+
+
+.galleryItem h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 30vw;
+}

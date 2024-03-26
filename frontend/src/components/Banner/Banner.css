@@ -1,0 +1,16 @@
+.navSection {
+    padding-bottom: 200px;
+}
+
+.navBanner {
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    z-index: 2;
+    width: 100%;
+    color: white;
+    padding-top: 20px;
+}

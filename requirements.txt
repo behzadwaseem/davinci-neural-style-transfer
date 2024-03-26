@@ -1,0 +1,6 @@
+pip install Flask
+pip install werkzeug
+pip install Flask-Cors
+pip install flask-marshmallow
+pip install SQLAlchemy
+pip install Flask-SQLAlchemy
