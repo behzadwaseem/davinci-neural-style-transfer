@@ -5,6 +5,9 @@ Welcome to DaVinci! DaVinci is an AI art application that uses the Neural Style 
 
 Neural Style Transfer (NST) is a technique in deep learning that allows the fusion of two images: a content image and a style image. The goal is to combine the content of one image with the artistic style of another. This is achieved by using a neural network to extract and recombine features from both images, creating a new image that retains the content structure of the first image while adopting the artistic style of the second.
 
+### Overview of NST Process
+![NST Example](https://media.licdn.com/dms/image/C4E12AQEfjA-SVxYLVQ/article-cover_image-shrink_600_2000/0/1531630356496?e=2147483647&v=beta&t=kmO2CHjqruhnAASb4Ejpu5-GKwe-7L7HjYbwZD2N4oY)
+
 
 ## Tech Stack 📚
 - **Frontend**: React
