@@ -23,6 +23,7 @@ Neural Style Transfer (NST) is a technique in deep learning that allows the fusi
 - Flask Marshmallow
 - TensorFlow
 - OpenCV
+- Matplotlib
 - Werkzeug
 - Urllib
 
@@ -57,7 +58,7 @@ Neural Style Transfer (NST) is a technique in deep learning that allows the fusi
     Modify the `config.py` file with your database configuration. For example:
 
     ```python
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///neural_style_transfer.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///nst.db'
     ```
 
 5. **Run database migrations**:
