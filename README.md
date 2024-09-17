@@ -29,7 +29,7 @@ Neural Style Transfer (NST) is a technique in deep learning that allows the fusi
 
 ### Frontend 💻
 
-- React Vite
+- React
 - Axios (for API calls)
 
 ## Getting Started
@@ -82,12 +82,12 @@ Neural Style Transfer (NST) is a technique in deep learning that allows the fusi
 
 2. **Install frontend dependencies**:
     ```bash
-    npm install vite@latest
+    npm install
     ```
 
 3. **Start the React app**:
     ```bash
-    npm run dev
+    npm start
     ```
 
 The React app will run on `http://localhost:3000`, and Flask will run on `http://localhost:5000`.
